@@ -12,6 +12,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 50px;
 }
 .half-width{
     width: 50%;
@@ -23,14 +24,20 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient( rgb(97, 90, 76) rgb(190, 61, 38));
+    background-image: linear-gradient( rgb(223, 153, 15) rgb(221, 64, 33));
     color: rgb(214, 32, 32);
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 5px;
+    background-color: orange;
 }
 .top-bannar{
 
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
